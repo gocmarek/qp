@@ -12,7 +12,7 @@ categories = ["asynchronous", "database", "data-structures", "network-programmin
 publish = false
 
 [dependencies]
-axum = "0.5.7"
+axum = "0.6.12"
 qp-postgres = { path = "../../qp-postgres", version = "0.1.0" }
-serde = { version = "1.0.137", features = ["derive"] }
-tokio = { version = "1.19.2", features = ["full"] }
+serde = { version = "1.0.159", features = ["derive"] }
+tokio = { version = "1.27.0", features = ["full"] }
